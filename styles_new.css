@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: url(./back.jpg);
+}
+
 body,
 h1,
 h2,
