@@ -11,6 +11,7 @@
 body{
   background: url(https://img1.goodfon.com/wallpaper/nbig/9/ed/android-material-purple.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 body,
