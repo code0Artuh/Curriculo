@@ -216,8 +216,6 @@ h4 {
 
 
 
-
-/* Social Network Area */
 #socialNetwork a:link,
 :visited {
   color: white;
@@ -226,22 +224,27 @@ h4 {
 }
 
 #socialNetwork .linkedinimg {
+  filter: grayscale();
   position: relative;
-  top: 5px;
-}
-
-#socialNetwork .facebookimg {
-  position: relative;
-  top: 5px;
-
+  transition: ease-in-out .4s;
+  margin-left: 18%;
 }
 
 #socialNetwork .instagramimg {
+  filter: grayscale();
   position: relative;
-  top: 5px;
-
+  margin-left: 4%;
 }
 
+#socialNetwork .linkedinimg:hover {
+  transition: ease-out 0.4s;
+  filter: none;
+}
+
+#socialNetwork .instagramimg:hover {
+  filter: none;
+
+}
 
 
 
