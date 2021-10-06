@@ -181,15 +181,15 @@ h4 {
   /* skills tecnical progress (HTML E CSS, MARKETING, HARDWARE */
 
 #skills #TecnicalSkills #progressBarTec-1 {
-  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 30%, #ffffff 30%);
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 90%, #ffffff 90%);
 }
 
 #skills #TecnicalSkills #progressBarTec-2 {
-  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 50%, #ffffff 50%);
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 70%, #ffffff 70%);
 }
 
 #skills #TecnicalSkills #progressBarTec-3 {
-  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 80%, #ffffff 80%);
+  background: linear-gradient(to right, var(--gamboge-color) 0%, var(--gamboge-color) 30%, #ffffff 30%);
 }
 
 
