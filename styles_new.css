@@ -1,4 +1,13 @@
-/* Utilities */
+@keyframes go-back {
+  0% {
+      transform: translateX(-400px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+
+  
+}
 :root {
   --floralwhite-color: #FFFDF7;
   --grey-color: #717171;
@@ -11,6 +20,10 @@
 
 body{
   background: url(./back.jpg);
+}
+
+.image {
+  animation: go-back 2s;
 }
 
 body,
@@ -88,12 +101,11 @@ h4 {
   text-align: center;
 }
 
-#SideInfoWrapper #Profile .profile-image{
+#SideInfoWrapper #Profile .image{
   border-radius: 50%;
   margin: 0 auto;
   border: 3px solid var(--gamboge-color);
 }
-
 
 /* Contact Area */
 #SideInfoWrapper #Contact p {
